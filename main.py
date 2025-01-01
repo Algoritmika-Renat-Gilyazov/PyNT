@@ -4,7 +4,7 @@ import os
 PATH = os.path.expanduser("~") + "\\OneDrive\\Рабочий стол\\pyproject"
 
 print\
-("PyNT 1.0")
+("PyNT 1.01")
 while True:
     cd = input("<" + PATH + "> ")
     if cd == "compile":
