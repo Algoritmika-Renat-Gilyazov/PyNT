@@ -1,7 +1,7 @@
 import time
 import os
 
-PATH = "C:\\Users\\renat\\OneDrive\\Рабочий стол\\pyproject"
+PATH = os.path.expanduser("~") + "\\OneDrive\\Рабочий стол\\pyproject"
 
 print\
 ("PyNT 1.0")
