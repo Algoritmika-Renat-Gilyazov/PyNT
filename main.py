@@ -41,7 +41,7 @@ while True:
                 f = open(filepath, "w")
                 text = input("Enter data to write: ")
                 f.write(text)
-                f.close
+                f.close()
             elif action == "read":
                 filepath = input("Enter filepath with filename: ")
                 f = open(filepath, "r")
